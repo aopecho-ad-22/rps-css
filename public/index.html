@@ -5,31 +5,45 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="my_styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+  <div class="container">
+    <div class="container">
+      <div class="row mb-medium">
+        <div class="third">
+          <a class="link button" href="/rock">
+            Play Rock
+          </a>
+        </div>
+
+        <div class="third">
+          <a class="link button" href="/paper">
+            Play Paper
+          </a>
+        </div>
+
+        <div class="third">
+          <a class="link button" href="/scissors">
+            Play Scissors
+          </a>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="row mb-large">
+      <h1>
+        Welcome to Rock-Paper-Scissors!
+      </h1>
+    </div>
   </div>
 
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
-  <h1>
-    Welcome to Rock-Paper-Scissors!
-  </h1>
-
+<div>
   <p>
     From <a href="https://en.wikipedia.org/wiki/Rock–paper–scissors" target="_blank">Wikipedia</a>:
   </p>
@@ -65,7 +79,8 @@
     cut[s] paper"). If both players choose the same shape, the game is tied
     and is usually immediately replayed to break the tie.
   </p>
-
+</div>
+<div>
   <table border="1">
     <tr>
       <td rowspan="2" colspan="2"></td>
@@ -100,13 +115,14 @@
       <td>We tie</td>
     </tr>
   </table>
-
+</div>
+<div>
   <p>
     Originating from China and Japan, other names for the game in the
     English-speaking world include roshambo and other orderings of the three
     items, with "rock" sometimes being called "stone".
   </p>
-
+</div>
   <div>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/627px-Rock-paper-scissors.svg.png">
     <p>
@@ -128,5 +144,6 @@
       left to right: slug (namekuji), frog (kawazu) and snake (hebi).
     </p>
   </div>
+</div>
 </body>
 </html>

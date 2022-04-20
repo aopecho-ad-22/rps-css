@@ -5,41 +5,75 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  <link rel="stylesheet" href="my_styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+  <body>
+    <div class="container">
+    <div class="container">
+      <div class="row mb-medium">
+        <div class="third">
+          <a class="link button" href="/rock">
+            Play Rock
+          </a>
+        </div>
+
+        <div class="third">
+          <a class="link button" href="/paper">
+            Play Paper
+          </a>
+        </div>
+
+        <div class="third">
+          <a class="link button" href="/scissors">
+            Play Scissors
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-medium">
+        <div class="half">
+          <div class="player button centered">
+            <h2>
+              We played paper!
+            </h2>
+          </div>
+        </div>
+        <div class="half">
+          <div class="computer button centered">
+            <h2>
+              They played paper!
+            </h2>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-medium">
+        <div class="full">
+          <div class="outcome button centered">
+            <h2>
+              We tied!
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row mb-large">
+        <div class="full centered">
+          <a class="link button" href="/">
+            Rules
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
-  <h2>
-    We played paper!
-  </h2>
-
-  <h2>
-    They played paper!
-  </h2>
-
-  <h2>
-    We tied!
-  </h2>
-
-  <a href="/">
-    Rules
-  </a>
-</body>
+  </body>
 </html>
